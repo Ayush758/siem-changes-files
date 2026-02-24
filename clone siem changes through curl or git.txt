@@ -1,0 +1,13 @@
+from git
+git clone https://github.com/Ayush758/siem-changes-files.git
+
+
+
+curl command for windows to get siem changes all files
+
+1 Invoke-WebRequest -Uri "https://github.com/Ayush758/siem-changes-files/archive/refs/heads/main.zip" -OutFile "siem-changes-files.zip"
+
+or curl is installed
+ curl.exe -L -o siem-changes-files.zip https://github.com/Ayush758/siem-changes-files/archive/refs/heads/main.zip
+
+then tar -xf siem-changes-files.zip
